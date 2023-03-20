@@ -1,0 +1,19 @@
+{
+  "name": "serverless-tf-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate project to bootstrap serverless API projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nuwan Karunarathna",
+  "license": "ISC",
+  "dependencies": {
+    "@middy/core": "^4.2.6",
+    "@middy/http-json-body-parser": "^4.2.6",
+    "glob": "^9.3.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.111"
+  }
+}
